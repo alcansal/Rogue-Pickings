@@ -1,0 +1,172 @@
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/***** Header Section *****/ 
+
+header {
+	height: 110px;
+}
+
+h1,h2,h3 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+h1 span {
+	color: #77a466;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+header nav ul li {
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #77a466;
+}
+
+/***** Top Section *****/ 
+
+.top-section,
+.bottom-section {
+	clear: both;
+	margin: 0 auto;
+}
+
+.main-title h2 {
+	color: #77a466;
+	padding: 5px 0;
+}
+
+.main-image {
+	height: auto;
+	float: left;
+}
+
+.main-image img {
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 399px;
+	float: left;
+	height: auto;
+	border-top: 1px solid lightgrey; 
+}
+
+.section-one .menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 10px 0;
+	color: #77a466;
+}
+
+.section-two {
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	text-align: center;
+}
+
+.section-two h3, 
+.section-three h3 {
+	padding: 10px 30px;
+}
+
+.section-three {
+	text-align: center;
+}
+
+.reviews {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	height: 50px;
+	margin: 0 auto;
+	border-top: 1px solid lightgray;
+}
+
+footer h3 {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+footer span {
+	text-transform: lowercase;
+	color: #77a466;
+	font-family: 'Galada', cursive;
+	font-size: 16px;
+}
+
+
+.pros-list {
+	clear: both;
+}
+
+.pros-list h2 {
+	color: #77a466;
+}
